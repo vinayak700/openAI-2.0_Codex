@@ -88,7 +88,6 @@ const handleSubmit = async (e) => {
     const parsedData = data.bot.trim();
 
     typeText(messageDiv, parsedData);
-    lastMessage.scrollIntoView();
   }
   else {
     const err = await response.text();
