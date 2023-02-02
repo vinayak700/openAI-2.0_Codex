@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
   window.scrollTo(0, document.body.scrollHeight);
 
-  const response = await fetch('https://codex-3vl2.onrender.com', {
+  const response = await fetch('https://ochre-moth-wrap.cyclic.app', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
