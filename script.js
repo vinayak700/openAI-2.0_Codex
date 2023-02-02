@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
   window.scrollTo(0, document.body.scrollHeight);
 
-  const response = await fetch('https://ochre-moth-wrap.cyclic.app', {
+  const response = await fetch('https://dull-cyan-snapper-coat.cyclic.app', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
